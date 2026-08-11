@@ -1,0 +1,310 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Solar Panel Project</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/featherlight.min.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Arimo:400,700"
+      rel="stylesheet"
+      type="text/css"
+    />
+
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script type="text/javascript" src="js/featherlight.min.js"></script>
+  </head>
+  <body>
+    <header id="top">
+      <div class="wrapper">
+        <h1 class="logo"><a href="#">Small business owners</a></h1>
+        <nav>
+          <ul id="navigation">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">Individuals</a></li>
+            <li><a href="#services">Small businesses</a></li>
+            <li><a href="#portfolio">Large corporations</a></li>
+            <li><a class="nav-cta" href="#">Enquire now</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <section id="banner">
+      <a name="home"></a>
+      <div class="wrapper">
+        <h2>Power Your Future With Solar</h2>
+        <p class="subtitle">Install today</p>
+        <div class="buttons">
+          <a href="#" class="button-1">Contact Us</a>
+          <a href="#" class="button-2">Learn More</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="video-section">
+      <div class="wrapper">
+        <h3>What Are Solar Panels?</h3>
+        <p>
+          Power your home or business with smarter, cleaner energy. Our tailored
+          solar solutions help you cut energy costs, reduce your carbon
+          footprint and take control of your energy future.
+        </p>
+      </div>
+    </section>
+
+    <section class="services-section">
+      <a name="services"></a>
+      <div class="wrapper">
+        <h3>Cost explorer</h3>
+        <p class="subtitle">Use the feature below to show the cost</p>
+        <ul class="services-list">
+          <li>
+            <form id="calcForm">
+                    <label for="location">Location</label><br />
+                    <input
+                type="text"
+                id="location"
+                name="location"
+                placeholder="Location"
+              /><br />
+                    <label for="energyBill">Your average Energy Bill</label
+              ><br />
+                    <input
+                type="number"
+                id="energyBill"
+                name="energyBill"
+                placeholder="Energy Bill"
+              />
+                  
+            </form>
+
+                
+            <form>
+                    <input
+                type="radio"
+                id="option1"
+                name="outlayOption"
+                value="option1"
+              />
+                    <label for="html">Plan 1</label><br />
+                    <input
+                type="radio"
+                id="option2"
+                name="outlayOption"
+                value="option2"
+              />
+                    <label for="css">Plan 2</label><br />
+                    <input
+                type="radio"
+                id="option3"
+                name="outlayOption"
+                value="option3"
+              />
+                    <label for="javascript">Plan 3</label><br />
+                  
+            </form>
+                <button type="button" id="calcBtn">Calculate</button>     
+            <p id="result"></p>
+
+                
+            <script type="module" src="app.js"></script>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="text-section">
+      <div class="wrapper">
+        <div class="image align-left">
+          <img
+            src="images/light-bulb.png"
+            alt="light bulb"
+            class="align-left"
+          />
+        </div>
+        <div class="text align-left">
+          <h3>We Love Bright Ideas</h3>
+          <p class="subtitle">See Your Ideas Brought to Life</p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
+            gravida blandit lacus a laoreet. Nullam sollicitudin urna metus, at
+            malesuada orci fringilla in. Curabitur eleifend risus vitae ligula
+            semper scelerisque. Nulla sed nisl nulla.
+          </p>
+          <p>
+            Fusce interdum suscipit ipsum, quis mattis metus posuere sit amet.
+            Mauris rutrum imperdiet tortor.
+          </p>
+        </div>
+        <div class="clear"></div>
+      </div>
+    </section>
+
+    <section class="features-section">
+      <div class="wrapper">
+        <ul class="feature-squares">
+          <li>
+            <div class="image">
+              <img src="images/icon-eye.png" alt="feature icon" />
+            </div>
+            <div class="text">
+              <h5>Attention to Detail</h5>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ut
+                dignissim sapien. Mauris congue faucibus enim, vel molestie
+                lectus.
+              </p>
+            </div>
+          </li>
+          <li>
+            <div class="image">
+              <img src="images/icon-clock.png" alt="feature icon" />
+            </div>
+            <div class="text">
+              <h5>Save Time</h5>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ut
+                dignissim sapien. Mauris congue faucibus enim, vel molestie
+                lectus.
+              </p>
+            </div>
+          </li>
+          <li>
+            <div class="image">
+              <img src="images/icon-dashboard.png" alt="feature icon" />
+            </div>
+            <div class="text">
+              <h5>Complete Control</h5>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ut
+                dignissim sapien. Mauris congue faucibus enim, vel molestie
+                lectus.
+              </p>
+            </div>
+          </li>
+          <li>
+            <div class="image">
+              <img src="images/icon-headset.png" alt="feature icon" />
+            </div>
+            <div class="text">
+              <h5>24/7 Support</h5>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ut
+                dignissim sapien. Mauris congue faucibus enim, vel molestie
+                lectus.
+              </p>
+            </div>
+          </li>
+          <div class="clear"></div>
+        </ul>
+      </div>
+    </section>
+
+    <section class="text-section">
+      <div class="wrapper">
+        <div class="image align-right">
+          <img
+            src="images/chat-bubbles.png"
+            alt="light bulb"
+            class="align-left"
+            style="margin-top: 60px"
+          />
+        </div>
+        <div class="text align-right">
+          <h3>Let’s Talk</h3>
+          <p class="subtitle">We’re here to listen to your needs</p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
+            gravida blandit lacus a laoreet. Nullam sollicitudin urna metus, at
+            malesuada orci fringilla in.
+          </p>
+          <ul class="list-checkmarks">
+            <li>Curabitur eleifend risus vitae ligula semper scelerisque.</li>
+            <li>Fusce interdum suscipit ipsum.</li>
+            <li>Quis mattis metus posuere sit amet.</li>
+            <li>Mauris rutrum imperdiet tortor.</li>
+          </ul>
+        </div>
+        <div class="clear"></div>
+      </div>
+    </section>
+
+    <section class="team-section">
+      <a name="about"></a>
+      <div class="wrapper">
+        <h3>The Team</h3>
+        <p class="subtitle">Get to know us</p>
+        <ul class="team-list">
+          <li>
+            <div class="image-container">
+              <img src="images/team-1.jpg" alt="team member" />
+            </div>
+            <h5>John Garret</h5>
+            <p>Lead Designer</p>
+            <ul class="social-links">
+              <li><a href="#" class="facebook">Facebook</a></li>
+              <li><a href="#" class="twitter">Twitter</a></li>
+              <li><a href="#" class="google">Google+</a></li>
+            </ul>
+          </li>
+          <li>
+            <div class="image-container">
+              <img src="images/team-2.jpg" alt="team member" />
+            </div>
+            <h5>Alice Mills</h5>
+            <p>Lead Designer</p>
+            <ul class="social-links">
+              <li><a href="#" class="facebook">Facebook</a></li>
+              <li><a href="#" class="twitter">Twitter</a></li>
+              <li><a href="#" class="google">Google+</a></li>
+            </ul>
+          </li>
+          <li>
+            <div class="image-container">
+              <img src="images/team-3.jpg" alt="team member" />
+            </div>
+            <h5>Scott Harris</h5>
+            <p>Lead Designer</p>
+            <ul class="social-links">
+              <li><a href="#" class="facebook">Facebook</a></li>
+              <li><a href="#" class="twitter">Twitter</a></li>
+              <li><a href="#" class="google">Google+</a></li>
+            </ul>
+          </li>
+          <div class="clear"></div>
+        </ul>
+      </div>
+    </section>
+
+    <section class="email-list-section">
+      <h3>Subscribe</h3>
+      <p class="subtitle">Stay up to date with us</p>
+      <form>
+        <input type="text" value="Your Name" />
+        <input type="text" value="Email Address" />
+        <button type="submit" title="Submit">Submit</button>
+      </form>
+    </section>
+
+    <footer>
+      <div class="wrapper">
+        <a class="logo" href="#">Chase</a>
+        <div class="footer-left">
+          <p class="copyright">Copyright 2016 &copy; Chase</p>
+          <p class="footer-links">
+            <a href="#">Contact Us</a> I
+            <a href="#">Terms &amp; Conditions</a> I<a href="#">Privacy</a>
+          </p>
+        </div>
+        <div class="footer-right">
+          <a href="#" class="social facebook">Facebook</a>
+          <a href="#" class="social twitter">Facebook</a>
+          <a href="#" class="social google">Facebook</a>
+        </div>
+        <div class="clear"></div>
+      </div>
+    </footer>
+  </body>
+</html>

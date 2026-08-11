@@ -16,7 +16,12 @@ export function homeCalc(location, outlayOption, energyBill) {
   if (!exposureMultiplier) return "Location not supported";
 
   const selectedOption = options[outlayOption];
-  if (!selectedOption) return "Invalid outlay option selected";
+
+  if (!selectedOption) {
+    return "Invalid outlay option selected";
+  } else if (selectedOption > baseSavings) {
+    return "House not applicable";
+  }
 
   const finalMonthlySavings = selectedOption.baseSavings * exposureMultiplier;
 
