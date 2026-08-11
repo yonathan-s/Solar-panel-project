@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Solar Panel installations</title>
+  </head>
+  <body>
+    <h1 class="title">This is for our Home Owners !</h1>
+
+    <form id="calcForm">
+      <label for="location">Location</label><br />
+      <input
+        type="text"
+        id="location"
+        name="location"
+        placeholder="Location"
+      /><br />
+      <label for="energyBill">Your average Energy Bill</label><br />
+      <input
+        type="number"
+        id="energyBill"
+        name="energyBill"
+        placeholder="Energy Bill"
+      />
+    </form>
+
+    <form>
+      <input type="radio" id="option1" name="outlayOption" value="option1" />
+      <label for="html">Plan 1</label><br />
+      <input type="radio" id="option2" name="outlayOption" value="option2" />
+      <label for="css">Plan 2</label><br />
+      <input type="radio" id="option3" name="outlayOption" value="option3" />
+      <label for="javascript">Plan 3</label><br />
+    </form>
+    <button type="button" id="calcBtn">Calculate</button>
+    <p id="result"></p>
+
+    <script type="module" src="app.js"></script>
+  </body>
+</html>
