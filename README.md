@@ -1,16 +1,18 @@
 # Solar-panel-project
 
 Epic: Help potential customers discover solar and convert into leads.
+
 ## User stories:
+
 As a homeowner, I want to input my address and average energy bill to see an estimated savings and payback period, so that I can judge if solar is financially worth it before speaking to a salesperson.
 
---> Would be good to have a sliding panel here to show the return on their investment 
+--> Would be good to have a sliding panel here to show the return on their investment
 
 As a community organiser, I want to register a group of neighbours for a bulk solar purchase, so that we can access a lower per-household price through collective buying power.
 
 As a business owner, I want to know what my current carbon footprint is, so that I know how my business is impacting the environment.
 
-As a business owner, I was to know how solar panels could decrease my carbon footprint, so that my company can see how to become more environmentally friendly. 
+As a business owner, I was to know how solar panels could decrease my carbon footprint, so that my company can see how to become more environmentally friendly.
 
 As a business owner, I want to see how much I could save on energy costs by switching to solar panels across multiple sites, so that I can present the case to my leadership team.
 
@@ -25,6 +27,7 @@ As a small business owner, I want to understand available grants and incentives,
 ## Gherkin statements
 
 ### General Users
+
 **Given** I am a user
 **When** I enter the page
 **I want to** find more information on solar panels
@@ -32,8 +35,6 @@ As a small business owner, I want to understand available grants and incentives,
 **Given** I am a user
 **When** I select an option button
 **I want to** see the relevant information for who I am
-
-
 
 ### Homeowner
 
@@ -45,8 +46,7 @@ As a small business owner, I want to understand available grants and incentives,
 **When** I enter my property details
 **I want to** see whether my property is suitable for solar panels.
 
-
-### Community Organiser 
+### Community Organiser
 
 **Given** I am a community organiser
 **When** I register a group of neighbours interested in solar
@@ -60,12 +60,11 @@ As a small business owner, I want to understand available grants and incentives,
 
 **Given** I am a business owner with multiple sites
 **When** I enter the energy usage for my locations
-**I want to** see the potential   total energy and cost savings from switching to solar.
+**I want to** see the potential total energy and cost savings from switching to solar.
 
 **Given** I am a business owner
 **When** I explore switching to solar panels
 **I want to** see how much solar could reduce my carbon footprint.
-
 
 ### Small Business
 
@@ -79,14 +78,4 @@ As a small business owner, I want to understand available grants and incentives,
 
 **Given** I am a small business owner
 **When** I explore the cost of installing solar panels
-**I want to** see which grants and incentives are available to me. 
-
-
-
-
-
-
-
-
-
- 
+**I want to** see which grants and incentives are available to me.
