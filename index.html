@@ -1,114 +1,89 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <title>Solar Panel Project</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="css/normalize.css" />
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/featherlight.min.css" />
-    <link
-      href="https://fonts.googleapis.com/css?family=Arimo:400,700"
-      rel="stylesheet"
-      type="text/css"
-    />
+<head>
+	<meta charset="UTF-8">
+	<title>Solar Panel Project</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/featherlight.min.css">
+	<link href='https://fonts.googleapis.com/css?family=Arimo:400,700' rel='stylesheet' type='text/css'>
+	
+	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<script type="text/javascript" src="js/featherlight.min.js"></script> 
 
-    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
-    <script type="text/javascript" src="js/featherlight.min.js"></script>
-  </head>
-  <body>
-    <header id="top">
-      <div class="wrapper">
-        <h1 class="logo"><a href="#">Chase</a></h1>
-        <nav>
-          <ul id="navigation">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About Us</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#portfolio">Portfolio</a></li>
-            <li><a class="nav-cta" href="#">Try Now</a></li>
-          </ul>
-        </nav>
-      </div>
-    </header>
-    <section id="banner">
-      <a name="home"></a>
-      <div class="wrapper">
-        <h2>Power Your Future With Solar</h2>
-        <p class="subtitle">Install today</p>
-        <div class="buttons">
-          <a href="#" class="button-1">Contact Us</a>
-          <a href="#" class="button-2">Learn More</a>
-        </div>
-      </div>
-    </section>
-
-    <section class="video-section">
-      <div class="wrapper">
-        <h3>What Are Solar Panels?</h3>
-        <p>
-          Power your home or business with smarter, cleaner energy. Our tailored
-          solar solutions help you cut energy costs, reduce your carbon
-          footprint and take control of your energy future.
-        </p>
-        <p class="subtitle">Watch our promotional video</p>
-        <video
-          width="790"
-          src="video.mp4"
-          poster="images/video-poster.jpg"
-          onclick="this.play()"
-          controls
-          preload
-        >
-          <p>Video playback unsupported</p>
-        </video>
-        <a href="#" class="button-1">Begin</a>
-      </div>
-    </section>
-
-    <section class="services-section">
-      <a name="services"></a>
-      <div class="wrapper">
-        <h3>Services</h3>
-        <p class="subtitle">We do lots of cool things</p>
-        <ul class="services-list">
-          <li>
-            <div class="image-container">
-              <img src="images/icon-pencil.png" alt="services icon" />
-            </div>
-            <h5>Graphic Design</h5>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
-              gravida blandit lacus a laoreet.
-            </p>
-            <a href="#">Learn More</a>
-          </li>
-          <li>
-            <div class="image-container">
-              <img src="images/icon-camera.png" alt="services icon" />
-            </div>
-            <h5>Photography</h5>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
-              gravida blandit lacus a laoreet.
-            </p>
-            <a href="#">Learn More</a>
-          </li>
-          <li>
-            <div class="image-container">
-              <img src="images/icon-film.png" alt="services icon" />
-            </div>
-            <h5>Animation</h5>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
-              gravida blandit lacus a laoreet.
-            </p>
-            <a href="#">Learn More</a>
-          </li>
-          <div class="clear"></div>
-        </ul>
-      </div>
-    </section>
+</head>
+<body>
+	<header id="top">
+		<div class="wrapper">
+			<h1 class="logo"><a href="#">Chase</a></h1>
+			<nav>
+				<ul id="navigation">
+					<li><a href="#home">Home</a></li>
+					<li><a href="./individual.html">Individuals</a></li>
+					<li><a href="#Small Businesses">Small Businesses</a></li>
+					<li><a href="#Large coporations">Large corporations</a></li>
+					<li><a class="nav-cta" href="#">Enquire Now</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<section id="banner"><a name="home"></a>
+		<div class="wrapper">
+			<h2>Power Your Future With Solar</h2>
+			<p class="text-block"></p>
+			<div class="buttons">
+				<a href="#" class="button-1">Contact Us</a>
+				<a href="#" class="button-2">Learn More</a>
+			</div>
+		</div>
+	</section>
+	
+	<section class="video-section">	
+		<div class="wrapper">
+			<h3>What Are Solar Panels?</h3>
+			<p>Power your home or business with smarter, cleaner energy. Our tailored solar solutions help you cut energy costs, reduce your carbon footprint and take control of your energy future.</p>
+			<p class="subtitle">Watch our promotional video</p>
+			<video width="790" src="video.mp4" poster="images/video-poster.jpg" onclick="this.play();" controls preload>
+				<p>Video playback unsupported</p>
+			</video>
+			<a href="#" class="button-1">Begin</a>
+		</div>
+	</section>
+	
+	<section class="services-section"><a name="services"></a>
+		<div class="wrapper">
+			<h3>Services</h3>
+			<p class="subtitle">We do lots of cool things</p>
+			<ul class="services-list">
+				<li>
+					<div class="image-container">
+						<img src="images/icon-pencil.png" alt="services icon" >
+					</div>
+					<h5>Graphic Design</h5>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis gravida blandit lacus a laoreet. </p>
+					<a href="#">Learn More</a>
+				</li>
+				<li>
+					<div class="image-container">
+						<img src="images/icon-camera.png" alt="services icon" >
+					</div>
+					<h5>Photography</h5>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis gravida blandit lacus a laoreet. </p>
+					<a href="#">Learn More</a>
+				</li>
+				<li>
+					<div class="image-container">
+						<img src="images/icon-film.png" alt="services icon" >
+					</div>
+					<h5>Animation</h5>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis gravida blandit lacus a laoreet. </p>
+					<a href="#">Learn More</a>
+				</li>
+				<div class="clear"></div>	
+			</ul>
+		</div>
+	</section>
 
     <section class="text-section">
       <div class="wrapper">
