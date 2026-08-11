@@ -1,0 +1,332 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Solar Panels for Small Businesses</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/featherlight.min.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Arimo:400,700" rel="stylesheet" type="text/css">
+
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="js/featherlight.min.js"></script>
+</head>
+
+<body>
+
+    <header id="top">
+    
+        <div class="wrapper">
+            <h1 class="logo"><a href="#">Solar pannels for small businesses</a></h1>
+            <nav>
+                <ul id="navigation">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="./individual.html">Individuals</a></li>
+                    <li><a href="./businessOwner.html">Small Businesses</a></li>
+                    <li><a href="#Large coporations">Large corporations</a></li>
+                    <li><a class="nav-cta" href="#">Enquire Now</a></li>
+                </ul>
+            </nav>
+        </div>
+    
+        </div>
+    </header>
+
+
+    <main>
+
+
+        <section class="services-section" id="calculator">
+
+            <div class="wrapper">
+
+                <h2>Business Solar Cost Explorer</h2>
+
+                <p class="subtitle">
+                    Estimate how much your business could save with solar panels.
+                </p>
+
+
+                <div class="services-list">
+
+                    <form id="calcForm">
+
+                        <div class="form-group">
+
+                            <label for="location">
+                                Business location
+                            </label>
+
+                            <input type="text" id="location" name="location" placeholder="e.g. London" required>
+
+                        </div>
+
+
+                        <div class="form-group">
+
+                            <label for="energyBill">
+                                Average monthly electricity bill (£)
+                            </label>
+
+                            <input type="number" id="energyBill" name="energyBill" placeholder="e.g. 1000" min="1"
+                                step="1" required>
+
+                        </div>
+
+
+                        <fieldset class="plan-options">
+
+                            <legend>
+                                Choose an example solar system
+                            </legend>
+
+
+                            <label for="option1">
+
+                                <input type="radio" id="option1" name="outlayOption" value="option1" required>
+
+                                <strong>Starter 10 kWp</strong><br>
+
+                                Suitable for smaller shops,
+                                offices and workshops.
+
+                            </label>
+
+
+                            <label for="option2">
+
+                                <input type="radio" id="option2" name="outlayOption" value="option2">
+
+                                <strong>Business 25 kWp</strong><br>
+
+                                Suitable for medium-sized
+                                commercial premises.
+
+                            </label>
+
+
+                            <label for="option3">
+
+                                <input type="radio" id="option3" name="outlayOption" value="option3">
+
+                                <strong>Business Plus 50 kWp</strong><br>
+
+                                Suitable for larger SME premises
+                                with high daytime electricity use.
+
+                            </label>
+
+                        </fieldset>
+
+
+                        <button type="submit" id="calcBtn">
+                            Calculate estimated savings
+                        </button>
+
+
+                        <div id="result" aria-live="polite"></div>
+
+
+                        <p class="calculator-disclaimer">
+
+                            Estimates are illustrative only.
+
+                        </p>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <section class="text-section" id="grants">
+
+            <div class="wrapper">
+
+                <div class="image align-left">
+
+                    <img src="images/light-bulb.png" alt="Energy saving light bulb" class="align-left">
+
+                </div>
+
+
+                <div class="text align-left">
+
+                    <h2>
+                        Could your business get help towards the cost of solar?
+                    </h2>
+
+                    <p class="subtitle">
+                        Explore government-backed support and incentives.
+                    </p>
+
+
+                    <p>
+                        Small businesses may be able to benefit from
+                        government-backed schemes, local funding,
+                        tax allowances and payments for renewable
+                        electricity exported to the grid.
+                    </p>
+
+
+                    <h3>
+                        Smart Export Guarantee (SEG)
+                    </h3>
+
+                    <p>
+                        The Smart Export Guarantee allows eligible
+                        businesses with solar panels to receive payments
+                        from participating electricity suppliers for
+                        renewable electricity exported to the grid.
+                    </p>
+
+
+                    <h3>
+                        Local and regional funding
+                    </h3>
+
+                    <p>
+                        Some London boroughs and local authorities
+                        periodically offer energy-efficiency or
+                        decarbonisation grants for small businesses.
+                        Availability and eligibility vary by scheme.
+                    </p>
+
+
+                    <h3>
+                        Capital allowances
+                    </h3>
+
+                    <p>
+                        Businesses may also be able to claim relevant
+                        capital allowances against qualifying expenditure.
+                        Businesses should obtain professional tax advice
+                        before relying on any allowance.
+                    </p>
+
+
+                    <p>
+
+                        <a href="https://solarpanelgrantsforbusinesses.co.uk/grants/"
+                            class="btn-link" target="_blank" rel="noopener noreferrer">
+                            Read about solar pannel grants
+                        </a>
+
+                    </p>
+
+                </div>
+
+
+                <div class="clear"></div>
+
+            </div>
+
+        </section>
+
+
+
+        <section class="email-list-section" id="contact">
+
+            <div class="wrapper">
+
+                <h2>
+                    Get a business solar estimate
+                </h2>
+
+                <p class="subtitle">
+                    Tell us about your business and we'll get in touch.
+                </p>
+
+
+                <form id="contactForm">
+
+                    <label for="contactName">
+                        Name
+                    </label>
+
+                    <input type="text" id="contactName" name="contactName" placeholder="Your name" required>
+
+
+                    <label for="contactEmail">
+                        Email
+                    </label>
+
+                    <input type="email" id="contactEmail" name="contactEmail" placeholder="you@business.co.uk" required>
+
+
+                    <button type="submit">
+                        Send enquiry
+                    </button>
+
+                </form>
+
+
+                <p id="contactMessage" aria-live="polite"></p>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+
+        <div class="wrapper">
+
+            <a class="logo" href="#home">
+                Solar for Small Businesses
+            </a>
+
+
+            <div class="footer-left">
+
+                <p class="copyright">
+                    &copy; 2026 Solar for Small Businesses
+                </p>
+
+
+                <p class="footer-links">
+
+                    <a href="#contact">
+                        Contact Us
+                    </a>
+
+                    |
+
+                    <a href="#">
+                        Terms &amp; Conditions
+                    </a>
+
+                    |
+
+                    <a href="#">
+                        Privacy
+                    </a>
+
+                </p>
+
+            </div>
+
+
+            <div class="clear"></div>
+
+        </div>
+
+    </footer>
+
+
+    <script type="module" src="app.js"></script>
+
+</body>
+
+</html>
