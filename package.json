@@ -1,0 +1,21 @@
+{
+  "name": "solar-panel-project",
+  "version": "1.0.0",
+  "description": "Epic: Help potential customers discover solar and convert into leads. # User stories: As a homeowner, I want to input my address and average energy bill to see an estimated savings and payback period, so that I can judge if solar is financially worth it before speaking to a salesperson.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yonathan-s/Solar-panel-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/yonathan-s/Solar-panel-project/issues"
+  },
+  "homepage": "https://github.com/yonathan-s/Solar-panel-project#readme"
+}
