@@ -36,8 +36,6 @@ As a small business owner, I want to understand available grants and incentives,
 **When** I select an option button
 **I want to** see the relevant information for who I am
 
-![words](./assests/Funky%20Fiesta.png)
-
 ### Homeowner
 
 **Given** I am a homeowner
