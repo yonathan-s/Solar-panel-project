@@ -1,0 +1,4 @@
+<video width="790" src="video.mp4" poster="images/video-poster.jpg" onclick="this.play();" controls preload>
+				<p>Video playback unsupported</p>
+			</video>
+			<a href="#" class="button-1">Begin</a>
